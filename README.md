@@ -1,50 +1,40 @@
-                  ## <h1 align="center">🚖 Cab Booking System</h1>
+                <h1 align="center">🚖 Cab Booking System</h1>
 
+## 1️⃣ About the Project
 
-
-\## 1️⃣ About the Project
 
 
 
 The Cab Booking System is a web-based application designed to simplify and automate the process of booking taxi rides. It provides a digital platform where riders, drivers, and administrators can interact efficiently. The system allows users to easily register and log in to request rides from their dashboard. Riders can enter their pickup and drop locations to book a cab in a few simple steps. Once a ride request is submitted, nearby drivers can view and accept the request. The application includes an OTP verification system to ensure secure ride confirmation between the rider and driver. Drivers can start and complete rides after successful OTP verification. The system also supports real-time ride updates and live location tracking to enhance user experience. After completing the ride, users can choose from different payment options to pay for the service. Riders can also submit reviews and ratings based on their ride experience. The admin module allows administrators to monitor system activities and manage users and drivers. Admins can view ride statistics and suspend users if necessary. The system improves efficiency, transparency, and reliability in the ride-booking process. It also reduces manual effort by automating ride management and tracking. The project is developed using modern technologies such as Spring Boot for backend development and React for frontend development. These technologies ensure a scalable, responsive, and user-friendly application.
 
 
-
-\## 2️⃣ AIM
-
-
+## 2️⃣ AIM
 
 The main aim of this project is to develop a secure and efficient cab booking platform that simplifies the process of booking and managing taxi rides. The system is designed to connect riders, drivers, and administrators through a single digital platform. It aims to provide users with a simple and user-friendly interface for requesting rides quickly and conveniently. The platform allows riders to enter their pickup and drop locations and send ride requests with ease. Drivers can view available ride requests and accept them based on their availability. The system also ensures smooth communication between riders and drivers during the ride process. OTP verification is implemented to provide secure authentication before starting a ride. This helps confirm that the correct rider and driver are connected for the trip. The platform aims to improve efficiency by automating the ride booking and management process. It also helps reduce manual effort and waiting time for both riders and drivers. The system provides multiple payment options to make transactions convenient for users. After completing a ride, users can submit ratings and reviews for the driver. The admin module allows administrators to monitor rides, manage users, and maintain system control. Administrators can also suspend users if any policy violations occur. Overall, the aim of this project is to create a reliable, secure, and user-friendly transportation solution.
 
 
 
-\## 3️⃣ Summary
-
+## 3️⃣ Summary
 
 
 The Cab Booking System is developed to automate and simplify the traditional taxi booking process through a web-based platform. It allows users to easily register and log in to access the system and request rides from their personal dashboard. Riders can enter their pickup and drop locations to send ride requests to available drivers. Once a ride request is created, drivers can view the request details and choose to accept or reject the ride. After a driver accepts the request, the system generates an OTP for secure ride verification. The rider shares the OTP with the driver to confirm the ride before it begins. This process helps ensure safety and prevents unauthorized ride starts. During the ride, the system can display route information using map integration. Drivers can start the ride after OTP verification and complete it once the destination is reached. After completing the trip, the ride status is updated in the system. Riders are then given options to select their preferred payment method. The system supports easy and convenient payment processing. Users can also provide ratings and reviews based on their ride experience. This helps maintain service quality and driver performance. The admin module allows administrators to monitor the entire system. Admins can manage users, drivers, ride details, and suspend accounts if necessary.
 
 
 
-\## 4️⃣ Introduction
-
+## 4️⃣ Introduction
 
 
 With the rapid growth of technology and internet-based services, online cab booking platforms have become increasingly popular. People now prefer digital solutions for transportation because they are faster, more convenient, and easily accessible. Traditional taxi booking methods often involve long waiting times, lack of transparency, and poor communication between drivers and passengers. These challenges can lead to inefficiency and inconvenience for both riders and drivers. The Cab Booking System is developed to overcome these issues by providing a modern digital platform for ride booking. The system connects riders and drivers in real time through a web-based application. Users can easily register, log in, and request rides using a simple and user-friendly interface. Once a ride request is submitted, drivers can view and accept the request based on their availability. The system ensures secure ride confirmation through OTP verification between the rider and the driver. It also allows users to track ride progress and manage their bookings efficiently. After completing the ride, users can make payments using available payment options. Riders can also provide feedback and ratings for the driver to maintain service quality. The system includes an admin module that allows administrators to monitor and manage the platform. Administrators can view ride activities, manage users and drivers, and control the overall system. The application is developed using modern technologies such as Spring Boot for backend development and React for frontend development. These technologies help create a scalable, responsive, and efficient cab booking solution.
 
 
-
-
-
-\## 5️⃣ Tech Stack
-
+## 5️⃣ Tech Stack
 
 
 The Cab Booking System is developed using a combination of modern frontend, backend, database, and development tools to ensure efficiency, scalability, and a smooth user experience. Each technology used in the project plays an important role in building a complete and functional application.
 
 
 
-\### Frontend
+### Frontend
 
 React.js  
 HTML  
@@ -58,7 +48,8 @@ The frontend of the application is developed using React.js, which helps create 
 
 
 
-\### Backend
+
+### Backend
 
 Spring Boot  
 Java  
@@ -71,15 +62,14 @@ The backend of the system is developed using Spring Boot, a powerful Java framew
 
 
 
-\### Database
+### Database
 
 PostgreSQL
 
 The system uses PostgreSQL as the database to store and manage application data such as user details, driver information, ride requests, payments, and reviews. PostgreSQL provides reliable data storage and efficient data retrieval for the application.
 
 
-
-\### Tools \& Technologies
+### Tools \& Technologies
 
 Git & GitHub  
 Postman  
@@ -99,32 +89,26 @@ These tools and technologies play an important role in building, testing, and ma
 
 
 
-\## 6️⃣ Use Cases
+## 6️⃣ Use Cases
 
 
 
 The Cab Booking System supports different types of users, each having specific roles and responsibilities within the application. The system is mainly divided into three user roles: Rider (User), Driver, and Administrator. Each role interacts with the system in a different way to ensure smooth functioning of the ride booking process.
 
 
-
-\### User (Rider)
-
-
+### User (Rider)
 
 The Rider is the person who books the cab using the application. A user must first register in the system by providing basic details such as name, email, and password. After successful registration, the user can log in to access the dashboard. From the dashboard, the rider can request a ride by entering the pickup and drop locations. Once the ride request is sent, drivers can view and accept the request. The system generates an OTP verification code which the rider shares with the driver before starting the ride to ensure security. During the ride, the rider can track the ride progress and route using map integration. After the ride is completed, the rider can select a payment option to complete the transaction. The rider can also provide ratings and reviews based on their ride experience, which helps maintain service quality.
 
 
-
-\### Driver
-
-
+### Driver
 
 The Driver is responsible for accepting and completing ride requests from users. Drivers log in to the system using their credentials and access the driver dashboard. From the dashboard, drivers can view available ride requests submitted by riders. They can accept or reject the ride request depending on their availability. After accepting a ride, the driver verifies the ride using the OTP provided by the rider. Once the OTP is verified, the driver can start the ride and follow the route to reach the destination. After reaching the drop location, the driver marks the ride as completed in the system. Drivers can also view ride details such as pickup location, drop location, and ride status.
 
 
 
-\### Admin
 
+### Admin
 
 
 The Administrator manages and monitors the entire Cab Booking System. Admin users log in to the admin panel to view system statistics such as total users, drivers, and rides. The admin has the authority to monitor ride activities and manage user accounts. If any user violates system policies or causes issues, the admin can suspend or restrict that account. The admin can also manage drivers and ensure that the system operates smoothly. Through the admin dashboard, administrators maintain control over the overall platform and ensure proper system management.
@@ -133,7 +117,7 @@ The Administrator manages and monitors the entire Cab Booking System. Admin user
 
 
 
-\## 7️⃣ Screenshots with Explanations
+## 7️⃣ Screenshots with Explanations
 
 
 
@@ -141,7 +125,7 @@ This section explains the major interfaces of the Cab Booking System. Each scree
 
 
 
-\### Home Page
+### Home Page
 
 
 
@@ -159,7 +143,7 @@ The Home Page is the main entry point of the Cab Booking System. It is the first
 
 
 
-\### Login Page
+### Login Page
 
 
 
@@ -179,7 +163,7 @@ The Login Page allows registered users to securely access their accounts. Users 
 
 
 
-\### Register Page
+### Register Page
 
 
 
@@ -195,7 +179,7 @@ The Register Page allows new users to create an account in the system. Users mus
 
 
 
-\### User Dashboard
+### User Dashboard
 
 
 
@@ -211,7 +195,7 @@ The User Dashboard is the main interface for riders after logging into the syste
 
 
 
-\### Book Ride
+### Book Ride
 
 
 
@@ -233,9 +217,9 @@ The Book Ride Page allows users to request a new ride by entering the pickup and
 
 
 
-\### Cancel Ride
+### Cancel Ride
 
-<img src="./screenshots/CancelRide.png" width="800"/>
+<img src="./screenshots/CancleRide.png" width="800"/>
 
 
 
@@ -246,8 +230,7 @@ The Cancel Ride feature allows users to cancel a ride request before the ride be
 
 
 
-
-\### Driver Dashboard
+### Driver Dashboard
 
 
 
@@ -261,11 +244,11 @@ The Driver Dashboard is designed for drivers to manage ride requests. After logg
 
 
 
-\### OTP Verification
+### OTP Verification
 
 
 
-<img src="./screenshots/DriverRequestOTP.png" width="800"/>
+<img src="./screenshots/DriverRequestedOTP.png" width="800"/>
 
 <img src="./screenshots/UserOTP.png" width="800"/>
 
@@ -281,7 +264,7 @@ The OTP Verification feature is used to ensure ride security. After a driver acc
 
 
 
-\### Live Location
+### Live Location
 
 
 
@@ -295,7 +278,7 @@ The Live Location Page displays the route and location during the ride using map
 
 
 
-\### Ride Completed
+### Ride Completed
 
 
 
@@ -315,7 +298,7 @@ The Ride Completed Page confirms that the ride has been successfully finished. O
 
 
 
-\### Payment Option
+### Payment Option
 
 
 
@@ -327,7 +310,7 @@ The Ride Completed Page confirms that the ride has been successfully finished. O
 
 
 
-<img src="./screenshots/PaymentSuccessful.png" width="800"/>
+<img src="./screenshots/Paymentsuccessful.png" width="800"/>
 
 
 
@@ -337,7 +320,7 @@ The Payment Option Page appears after the ride is completed. Users can select th
 
 
 
-\### Review System
+### Review System
 
 
 
@@ -361,7 +344,7 @@ The Review System allows riders to rate and provide feedback about their ride ex
 
 
 
-\### Admin Dashboard
+### Admin Dashboard
 
 
 
@@ -371,7 +354,7 @@ The Review System allows riders to rate and provide feedback about their ride ex
 
 
 
-<img src="./screenshots/AdminPanel.png" width="800"/>
+<img src="./screenshots/AdminPannel.png" width="800"/>
 
 
 
@@ -389,7 +372,7 @@ The Admin Dashboard provides administrators with a complete overview of the syst
 
 
 
-\### Suspend User
+### Suspend User
 
 
 
@@ -399,7 +382,7 @@ The Admin Dashboard provides administrators with a complete overview of the syst
 
 
 
-<img src="./screenshots/SuspendedRider.png" width="800"/>
+<img src="./screenshots/SuspenedRider.png" width="800"/>
 
 
 
@@ -413,9 +396,9 @@ The Suspend User Feature allows administrators to suspend riders or drivers who 
 
 
 
-\## 8️⃣ Future Enhancements
+## 8️⃣ Future Enhancements
 
-&nbsp;
+
 
 The Cab Booking System can be further improved by adding several advanced features to enhance functionality and user experience. In the future, the application can include a mobile application version for Android and iOS to make the service more accessible to users on smartphones. The system can also integrate real-time GPS tracking to provide more accurate live location updates during the ride. Another improvement would be the implementation of online payment gateways such as credit cards, debit cards, and digital wallets for secure and seamless transactions. The platform can also include ride scheduling, allowing users to book rides in advance for a specific date and time. A driver rating and performance system can be enhanced to help maintain service quality and improve trust between riders and drivers. Push notifications can be added to inform users about ride status, driver arrival, and payment confirmations. The system can also support dynamic pricing, where fares change based on demand and distance. Another enhancement could be the addition of ride history and analytics, allowing users and admins to view detailed ride records. The admin panel can be improved with more advanced monitoring tools and reporting features. The platform could also support multiple vehicle types such as bikes, mini cabs, and luxury cars. Integration with AI-based route optimization could help drivers choose faster and more efficient routes. Security can be improved by implementing two-factor authentication for user accounts. Multi-language support can also be added to make the application accessible to a wider audience. These future enhancements will make the Cab Booking System more powerful, scalable, and suitable for real-world transportation services. 
 
@@ -423,7 +406,7 @@ The Cab Booking System can be further improved by adding several advanced featur
 
 
 
-\## 9️⃣ Conclusion
+## 9️⃣ Conclusion
 
 
 
