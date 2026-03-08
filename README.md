@@ -1,8 +1,5 @@
-                <h1 align="center">🚖 Cab Booking System</h1>
-
+<h1 align="center">🚖 Cab Booking System</h1>
 ## 1️⃣ About the Project
-
-
 
 
 The Cab Booking System is a web-based application designed to simplify and automate the process of booking taxi rides. It provides a digital platform where riders, drivers, and administrators can interact efficiently. The system allows users to easily register and log in to request rides from their dashboard. Riders can enter their pickup and drop locations to book a cab in a few simple steps. Once a ride request is submitted, nearby drivers can view and accept the request. The application includes an OTP verification system to ensure secure ride confirmation between the rider and driver. Drivers can start and complete rides after successful OTP verification. The system also supports real-time ride updates and live location tracking to enhance user experience. After completing the ride, users can choose from different payment options to pay for the service. Riders can also submit reviews and ratings based on their ride experience. The admin module allows administrators to monitor system activities and manage users and drivers. Admins can view ride statistics and suspend users if necessary. The system improves efficiency, transparency, and reliability in the ride-booking process. It also reduces manual effort by automating ride management and tracking. The project is developed using modern technologies such as Spring Boot for backend development and React for frontend development. These technologies ensure a scalable, responsive, and user-friendly application.
