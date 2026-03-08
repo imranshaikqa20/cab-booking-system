@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/cab_booking_db
     username: postgres
-    password: shaikimran123!@#
+    password: XXXXXXXXXX
     driver-class-name: org.postgresql.Driver
 
   jpa:
